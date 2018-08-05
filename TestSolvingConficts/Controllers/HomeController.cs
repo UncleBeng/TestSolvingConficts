@@ -13,7 +13,7 @@ namespace TestSolvingConficts.Controllers
         public IActionResult Index()
         {
             //komentarz
-
+            //lubie frytki
             var test = "tekst";
 
             return View(test);
