@@ -12,8 +12,11 @@ namespace TestSolvingConficts.Controllers
     {
         public IActionResult Index()
         {
+            //komentarz
             //lubie frytki
-            return View();
+            var test = "tekst";
+
+            return View(test);
         }
 
         public IActionResult About()
