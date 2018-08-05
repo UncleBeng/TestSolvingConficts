@@ -12,7 +12,11 @@ namespace TestSolvingConficts.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            //komentarz
+
+            var test = "tekst";
+
+            return View(test);
         }
 
         public IActionResult About()
