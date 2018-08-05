@@ -12,6 +12,7 @@ namespace TestSolvingConficts.Controllers
     {
         public IActionResult Index()
         {
+            //lubie frytki
             return View();
         }
 
